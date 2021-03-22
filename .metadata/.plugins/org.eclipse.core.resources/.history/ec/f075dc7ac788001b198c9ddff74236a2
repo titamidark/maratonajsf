@@ -1,0 +1,12 @@
+package br.com.altsystem.beanestudante;
+
+import java.io.Serializable;
+
+import javax.inject.Named;
+
+@Named
+public class EstudanteRegistrarBean implements Serializable {
+	
+	
+
+}

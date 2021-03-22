@@ -1,1 +1,4 @@
+br\com\altsystem\beanestudante\EstudanteRegistrarBean.class
+br\com\altsystem\model\enums\Turno.class
 br\com\altsystem\HellowServlet.class
+br\com\altsystem\model\Estudante.class

@@ -1,0 +1,5 @@
+package br.com.altsystem;
+
+public class HelloServlet {
+
+}
