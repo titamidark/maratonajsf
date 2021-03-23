@@ -4,4 +4,10 @@
     <fullyQualifiedTypeName name="javax.inject.Named"/>
     <fullyQualifiedTypeName name="br.com.altsystem.model.enums.Turno"/>
     <fullyQualifiedTypeName name="br.com.altsystem.model.Estudante"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.sun.el.parser.AstListData"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
 </qualifiedTypeNameHistroy>

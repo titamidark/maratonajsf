@@ -1,0 +1,45 @@
+package br.com.altsystem.beanestudante;
+
+
+import java.io.Serializable;
+
+import javax.inject.Named;
+
+import br.com.altsystem.model.Estudante;
+
+@Named
+public class EstudanteRegistrarBean implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	private Estudante estudante = new Estudante();
+	
+	private String[] nomesArray = {"Altamir", "Cristianne", "Geovanna", "Joelma"};
+	private List<String> nomesList = asList("Alair", "Leninha", "Bernardo", "Eu");	
+
+	public Estudante getEstudante() {
+		return estudante;
+	}
+
+	public void setEstudante(Estudante estudante) {
+		this.estudante = estudante;
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+
+	public String[] getNomesArray() {
+		return nomesArray;
+	}
+
+	public void setNomesArray(String[] nomesArray) {
+		this.nomesArray = nomesArray;
+	}
+	
+	
+
+}
