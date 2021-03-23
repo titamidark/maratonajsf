@@ -1,0 +1,5 @@
+package br.com.altsystem.beanestudante;
+
+public class EstudanteRegistrarBean {
+
+}

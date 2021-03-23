@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	
+<html xmlns="http://www.w3.org/1999/xhtml"	
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+	<h:head>	
+		<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"/>
+		<title>Maratona JSF</title>
+	</h:head>
+	
+	<h:body>
+		<!--  
+		* Para utilizar chamadas de classes ENUM no JSF 
+		* Copia o imporEnum no site da PrimeFaces
+		* adiciona o xmlns do primefaces
+		* Altera o importEnum colocando o nome da classe e a variavel
+		
+        -->
+                  
+		<p:importEnum type="br.com.altsystem.model.enums.Turno" 
+				var="Turno" allSuffix="ALL_ENUM_VALUES"/>
+        
+
+
+		<h1>Bem vindo ao Treinamento Maratona JSF</h1>
+		
+		<h:outputLabel value="#{estudanteRegistrarBean.estudante.nome}"></h:outputLabel><br/>
+		<h:outputLabel value="#{estudanteRegistrarBean.estudante.sobrenome}"></h:outputLabel><br/>
+		<h:outputLabel value="#{estudanteRegistrarBean.estudante.nota1}"></h:outputLabel><br/>
+		<h:outputLabel value="#{estudanteRegistrarBean.estudante.nota2}"></h:outputLabel><br/>
+		<h:outputLabel value="#{estudanteRegistrarBean.estudante.nota3}"></h:outputLabel><br/>
+		
+		<!-- Dois tipos de Comparação  -->
+		<h:outputLabel value="#{estudanteRegistrarBean.estudante.nota1 le estudanteRegistrarBean.estudante.nota3}"></h:outputLabel><br/>
+		<h:outputLabel value="#{estudanteRegistrarBean.estudante.nota2 eq 0 ? 'ZERO' : 'NÃO ZERO'}"></h:outputLabel><br/>
+		
+		<h:outputText value="Dados da classe ENUM"></h:outputText><br/>
+		
+ 
+		<h:outputLabel value="#{estudanteRegistrarBean.estudante.turno.equals(Turno.MATUTINO)}"></h:outputLabel><br/>
+		<h:outputLabel value="#{estudanteRegistrarBean.estudante.turno eq Turno.VESPERTINO}"></h:outputLabel><br/>
+		
+		<!-- Arrays na Expression Language -->
+		<h:outputText value="Listando Arrays"></h:outputText><br/>
+		<h:outputLabel value= "#{estudanteRegistrarBean.nomesArray[0]} #{estudanteRegistrarBean.nomesArray[1]} #{estudanteRegistrarBean.nomesArray[2]} #{estudanteRegistrarBean.nomesArray[3]}"></h:outputLabel><br/>
+
+		<!-- Array utilizando ui repeat -->
+		<h:outputText value="Listando Array utilizando ui:repeat"></h:outputText><br/>
+		<ui:repeat var="nome" value="#{estudanteRegistrarBean.nomesArray}">
+			<h:outputLabel value="#{nome}"></h:outputLabel><br/>
+		</ui:repeat>
+		
+		<!-- List na Expression Language -->
+		<h:outputText value="Listando uma Lista"></h:outputText><br/>
+		<h:outputLabel value="#{estudanteRegistrarBean.nomesList.get(0)}
+		#{estudanteRegistrarBean.nomesList.get(1)}
+		#{estudanteRegistrarBean.nomesList.get(2)}
+		#{estudanteRegistrarBean.nomesList.get(3)}"
+		></h:outputLabel><br/>
+
+		<!-- Utilizando List -->
+		<h:outputText value="Listando uma Lista ==list== Utilizando ui:repeat"></h:outputText><br/>
+			<ui:repeat var="nomeList" value="#{estudanteRegistrarBean.nomesList}">
+				<h:outputLabel value="#{nomeList}"></h:outputLabel><br/>
+			</ui:repeat>
+		
+		<!--  Utilizando SET -->
+		<h:outputText value="Listando uma Lista do tipo SET"></h:outputText><br/>
+		<ui:repeat var="nome" value="#{estudanteRegistrarBean.nomesSet}">
+			<h:outputLabel value="#nome"></h:outputLabel><br/>
+		</ui:repeat>
+		
+		
+	</h:body>
+</html>

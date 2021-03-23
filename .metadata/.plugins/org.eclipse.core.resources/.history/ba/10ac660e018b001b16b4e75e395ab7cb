@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	
+<html xmlns="http://www.w3.org/1999/xhtml"	
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+	<h:head>	
+		<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"/>
+		<title>Maratona JSF</title>
+	</h:head>
+	
+	<h:body>
+		<!--  
+		* Para utilizar chamadas de classes ENUM no JSF 
+		* Copia o imporEnum no site da PrimeFaces
+		* adiciona o xmlns do primefaces
+		* Altera o importEnum colocando o nome da classe e a variavel
+		
+        -->
+                  
+		<p:importEnum type="br.com.altsystem.model.enums.Turno" 
+				var="Turno" allSuffix="ALL_ENUM_VALUES"/>
+        
+
+
+		<h1>Bem vindo ao Treinamento Maratona JSF</h1>
+		
+		<h:outputLabel value="#{estudanteRegistrarBean.estudante.nome}"></h:outputLabel><br/>
+		<h:outputLabel value="#{estudanteRegistrarBean.estudante.sobrenome}"></h:outputLabel><br/>
+		<h:outputLabel value="#{estudanteRegistrarBean.estudante.nota1}"></h:outputLabel><br/>
+		<h:outputLabel value="#{estudanteRegistrarBean.estudante.nota2}"></h:outputLabel><br/>
+		<h:outputLabel value="#{estudanteRegistrarBean.estudante.nota3}"></h:outputLabel><br/>
+		
+		<!-- Dois tipos de Comparação  -->
+		<h:outputLabel value="#{estudanteRegistrarBean.estudante.nota1 le estudanteRegistrarBean.estudante.nota3}"></h:outputLabel><br/>
+		<h:outputLabel value="#{estudanteRegistrarBean.estudante.nota2 eq 0 ? 'ZERO' : 'NÃO ZERO'}"></h:outputLabel><br/>
+		
+		<h:outputText value="Dados da classe ENUM"></h:outputText><br/>
+		
+ 
+		<h:outputLabel value="#{estudanteRegistrarBean.estudante.turno.equals(Turno.MATUTINO)}"></h:outputLabel><br/>
+		<h:outputLabel value="#{estudanteRegistrarBean.estudante.turno eq Turno.VESPERTINO}"></h:outputLabel><br/>
+		
+		<!-- Arrays na Expression Language -->
+		<h:outputText value="Listando Arrays"></h:outputText><br/>
+		<h:outputLabel value= "#{estudanteRegistrarBean.nomesArray[0]} {estudanteRegistrarBean.nomesArray[1]} {estudanteRegistrarBean.nomesArray[2]} {estudanteRegistrarBean.nomesArray[3]}"></h:outputLabel>
+
+
+
+		
+	</h:body>
+</html>

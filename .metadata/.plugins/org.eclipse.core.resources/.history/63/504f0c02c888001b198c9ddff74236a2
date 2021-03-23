@@ -1,0 +1,5 @@
+package br.com.altsystem.model.enums;
+
+public class Turno {
+
+}
