@@ -83,6 +83,51 @@
 			<h:outputLabel value="#{entry}"></h:outputLabel><br/>
 		</ui:repeat>
 		
+		<!-- Chamando um método na classe bean -->
+		<h:outputText value="Chamando um método da classe Bean"></h:outputText>
+		<h:outputLabel value="#{estudanteRegistrarBean.executar()}"></h:outputLabel><br/><br/>
+		
+		<!-- Chamando o método que acessa a página 02 -->
+		<h:form>
+			<h:commandButton value="Ir página 02" 
+							 action="#{estudanteRegistrarBean.irParaPagina02()}" ></h:commandButton>
+		</h:form>
+		
+		<br/><br/>
+		
+		<!-- Imprimindo CSS com Expression Languege -->	
+		<h:outputText value="Listando Informações com CSS e Expression Language"></h:outputText><br/>
+		<ui:repeat var="nome" value="#{estudanteRegistrarBean.nomesArray}" varStatus="status">
+			<h:outputLabel value="#{nome}" style="color: #{status.index mod 2 == 0 ? 'red' : 'green'}"></h:outputLabel><br/>
+		</ui:repeat><br/><br/>
+		
+		<!-- Chamar uma função em JavaScript -->
+		<h:form>
+			<h:commandButton value="Chamar Função JS" 
+							 onclick="fazMagica('TitamiDark')" ></h:commandButton><br/>
+							 
+			<h:commandButton value="Chamar Função JS Parte 2"
+							 onclick="capturaNome('#{estudanteRegistrarBean.estudante.nome}')" ></h:commandButton>
+							 
+		</h:form>
+		
+		<script type="text/javascript">
+			function fazMagica(magica) {
+				alert(magica);
+			}
+
+			function capturaNome(nome) {
+				alert(nome);
+			}
+			
+			</script>
+		
+		
+		
+		
+		
+		
+		
 		
 		
 	</h:body>

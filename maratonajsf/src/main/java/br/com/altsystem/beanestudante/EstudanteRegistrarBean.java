@@ -6,8 +6,6 @@ import java.util.*;
 
 import javax.inject.Named;
 
-import com.sun.el.parser.AstListData;
-
 import br.com.altsystem.model.Estudante;
 
 @Named
@@ -33,7 +31,15 @@ public class EstudanteRegistrarBean implements Serializable {
 		nomesMap.put("Caio", "O caçula");
 	}
 	
+	public void executar() {
+		System.out.println("Fazendo uma busca no Banco de Dados");
+		System.out.println("Processando os dados");
+		System.out.println("Exibindo os dados");
+	}
 	
+	public String irParaPagina02() {
+		return "page02?faces-redirect=true";
+	}
 	
 	public Map<String, String> getNomesMap() {
 		return nomesMap;
