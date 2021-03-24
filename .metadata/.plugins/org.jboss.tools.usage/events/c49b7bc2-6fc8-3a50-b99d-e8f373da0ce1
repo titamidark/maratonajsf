@@ -1,9 +1,9 @@
-#Tue Mar 23 14:49:25 BRT 2021
+#Tue Mar 23 18:51:11 BRT 2021
 ct=jbt
 a=installed
-c=1
+c=2
 s=0
-d=1616521765479
+d=1616536271253
 v=2.2.300
 cmp=usage
 cl=AS-FREEMARKER-MAVEN-RUNTIME

@@ -1,8 +1,8 @@
-2021-03-23 14:51:22,974 INFO  [org.jboss.modules] (main) JBoss Modules version 1.10.2.Final
-2021-03-23 14:51:51,975 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
-2021-03-23 14:51:52,717 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
-2021-03-23 14:51:55,705 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 21.0.2.Final (WildFly Core 13.0.3.Final) starting
-2021-03-23 14:51:55,725 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+2021-03-24 12:53:18,177 INFO  [org.jboss.modules] (main) JBoss Modules version 1.10.2.Final
+2021-03-24 12:53:25,358 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
+2021-03-24 12:53:25,468 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
+2021-03-24 12:53:26,531 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 21.0.2.Final (WildFly Core 13.0.3.Final) starting
+2021-03-24 12:53:26,537 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
 	awt.toolkit = sun.awt.windows.WToolkit
 	file.encoding = UTF-8
 	file.encoding.pkg = sun.io
@@ -86,69 +86,194 @@
 	user.script = 
 	user.timezone = America/Sao_Paulo
 	user.variant = 
-2021-03-23 14:51:55,730 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:1973 -Dprogram.name=JBossTools: WildFly 21 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\projetoMaratonajsf\wildfly-21.0.2.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
-2021-03-23 14:52:18,617 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.13.1.Final
-2021-03-23 14:52:31,912 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
-2021-03-23 14:52:32,009 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 17) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
-2021-03-23 14:52:32,226 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found maratonajsf.war in deployment directory. To trigger deployment create a file called maratonajsf.war.dodeploy
-2021-03-23 14:52:32,337 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
-2021-03-23 14:52:32,545 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.8.2.Final
-2021-03-23 14:52:32,676 INFO  [org.wildfly.extension.microprofile.jwt.smallrye._private] (ServerService Thread Pool -- 63) WFLYJWT0001: Activating WildFly MicroProfile JWT Subsystem
-2021-03-23 14:52:32,698 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 61) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
-2021-03-23 14:52:32,717 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) WFLYCLINF0001: Activating Infinispan subsystem.
-2021-03-23 14:52:32,792 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 62) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
-2021-03-23 14:52:32,801 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.8.2.Final
-2021-03-23 14:52:32,956 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
-2021-03-23 14:52:33,001 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
-2021-03-23 14:52:33,063 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 65) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
-2021-03-23 14:52:33,673 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.23.Final)
-2021-03-23 14:52:33,726 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 59) WFLYJSF0007: Activated the following JSF Implementations: [main]
-2021-03-23 14:52:33,808 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 66) WFLYNAM0001: Activating Naming Subsystem
-2021-03-23 14:52:33,874 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
-2021-03-23 14:52:34,402 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 72) WFLYSEC0002: Activating Security Subsystem
-2021-03-23 14:52:34,647 INFO  [org.jboss.as.security] (MSC service thread 1-8) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00006
-2021-03-23 14:52:35,694 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.2.2.Final starting
-2021-03-23 14:52:38,692 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
-2021-03-23 14:52:39,244 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
-2021-03-23 14:52:39,407 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
-2021-03-23 14:52:39,414 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
-2021-03-23 14:52:41,039 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\projetoMaratonajsf\wildfly-21.0.2.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
-2021-03-23 14:52:42,009 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 54) WFLYRS0016: RESTEasy version 3.13.2.Final
-2021-03-23 14:52:44,888 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 53) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
-2021-03-23 14:52:47,710 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
-2021-03-23 14:52:47,781 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
-2021-03-23 14:52:53,554 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 5.0.19.Final
-2021-03-23 14:52:53,669 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
-2021-03-23 14:52:53,814 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
-2021-03-23 14:52:54,440 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
-2021-03-23 14:52:55,947 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: EJB subsystem suspension complete
-2021-03-23 14:52:56,608 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
-2021-03-23 14:53:18,192 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
-2021-03-23 14:53:18,287 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-8) WFLYDM0111: Keystore C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
-2021-03-23 14:53:18,326 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\deployments
-2021-03-23 14:53:18,459 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "maratonajsf.war" (runtime-name: "maratonajsf.war")
-2021-03-23 14:53:23,294 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
-2021-03-23 14:53:34,948 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.4.2.Final (Apache CXF 3.3.7) 
-2021-03-23 14:53:48,719 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment maratonajsf.war
-2021-03-23 14:53:50,447 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 6.0.21.Final
-2021-03-23 14:53:54,369 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-2) No shutdown hook registered: Please call close() manually on application shutdown.
-2021-03-23 14:53:58,075 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 3.1.5 (Final)
-2021-03-23 14:54:04,361 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 80) ISPN000128: Infinispan version: Infinispan 'Corona Extra' 11.0.4.Final
-2021-03-23 14:54:05,166 INFO  [org.infinispan.CONFIG] (MSC service thread 1-7) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2021-03-23 14:54:05,251 INFO  [org.infinispan.CONFIG] (MSC service thread 1-7) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2021-03-23 14:54:07,382 INFO  [io.smallrye.metrics] (MSC service thread 1-3) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
-2021-03-23 14:54:07,857 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 80) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
-2021-03-23 14:54:08,141 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-3) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
-2021-03-23 14:54:19,967 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 80) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
-2021-03-23 14:54:25,860 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 80) Inicializando Mojarra 2.3.14.SP01 para o contexto '/maratonajsf'
-2021-03-23 14:54:36,097 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 80) Running on PrimeFaces 10.0.0
-2021-03-23 14:54:36,907 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0021: Registered web context: '/maratonajsf' for server 'default-server'
-2021-03-23 14:54:39,062 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 45) WFLYSRV0010: Deployed "maratonajsf.war" (runtime-name : "maratonajsf.war")
-2021-03-23 14:54:40,812 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
-2021-03-23 14:54:40,853 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 21.0.2.Final (WildFly Core 13.0.3.Final) started in 226011ms - Started 481 of 704 services (375 services are lazy, passive or on-demand)
-2021-03-23 14:54:40,942 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
-2021-03-23 14:54:40,944 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
-2021-03-23 14:55:04,931 ERROR [io.undertow.request] (default task-2) UT005023: Exception handling request to /maratonajsf/pages/home/homePage.faces: javax.servlet.ServletException: Error Parsing /pages/home/homePage.xhtml: Error Traced[line: 73] The end-tag for element type "h:outputText" must end with a '>' delimiter.
+2021-03-24 12:53:26,539 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:3005 -Dprogram.name=JBossTools: WildFly 21 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\projetoMaratonajsf\wildfly-21.0.2.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2021-03-24 12:53:44,736 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.13.1.Final
+2021-03-24 12:53:55,984 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-03-24 12:53:56,043 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 41) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2021-03-24 12:53:56,209 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found maratonajsf.war in deployment directory. To trigger deployment create a file called maratonajsf.war.dodeploy
+2021-03-24 12:53:56,373 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2021-03-24 12:53:56,559 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.8.2.Final
+2021-03-24 12:53:56,630 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.8.2.Final
+2021-03-24 12:53:56,780 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 66) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2021-03-24 12:53:56,796 INFO  [org.wildfly.extension.microprofile.jwt.smallrye._private] (ServerService Thread Pool -- 68) WFLYJWT0001: Activating WildFly MicroProfile JWT Subsystem
+2021-03-24 12:53:56,884 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 57) WFLYCLINF0001: Activating Infinispan subsystem.
+2021-03-24 12:53:57,035 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 79) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2021-03-24 12:53:57,180 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 71) WFLYNAM0001: Activating Naming Subsystem
+2021-03-24 12:53:57,284 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 67) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2021-03-24 12:53:57,297 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 69) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+2021-03-24 12:53:57,392 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 77) WFLYSEC0002: Activating Security Subsystem
+2021-03-24 12:53:57,399 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 81) WFLYWS0002: Activating WebServices Extension
+2021-03-24 12:53:57,408 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 70) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2021-03-24 12:53:57,595 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00006
+2021-03-24 12:53:57,743 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.23.Final)
+2021-03-24 12:53:58,272 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 64) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2021-03-24 12:53:59,718 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 49) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2021-03-24 12:54:00,397 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 2.2.2.Final starting
+2021-03-24 12:54:00,548 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2021-03-24 12:54:01,051 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2021-03-24 12:54:01,401 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-2) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2021-03-24 12:54:01,538 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 59) WFLYRS0016: RESTEasy version 3.13.2.Final
+2021-03-24 12:54:02,096 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0014: Creating file handler for path 'C:\projetoMaratonajsf\wildfly-21.0.2.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2021-03-24 12:54:06,221 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 58) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
+2021-03-24 12:54:06,264 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2021-03-24 12:54:06,260 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2021-03-24 12:54:08,152 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2021-03-24 12:54:08,187 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2021-03-24 12:54:08,242 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.19.Final
+2021-03-24 12:54:08,726 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2021-03-24 12:54:09,453 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0493: EJB subsystem suspension complete
+2021-03-24 12:54:10,262 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2021-03-24 12:54:19,124 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2021-03-24 12:54:19,171 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-8) WFLYDM0111: Keystore C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2021-03-24 12:54:19,195 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\deployments
+2021-03-24 12:54:19,294 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "maratonajsf.war" (runtime-name: "maratonajsf.war")
+2021-03-24 12:54:21,022 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2021-03-24 12:54:25,005 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.4.2.Final (Apache CXF 3.3.7) 
+2021-03-24 12:54:32,387 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) WFLYWELD0003: Processing weld deployment maratonajsf.war
+2021-03-24 12:54:33,895 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 6.0.21.Final
+2021-03-24 12:54:36,449 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-8) No shutdown hook registered: Please call close() manually on application shutdown.
+2021-03-24 12:54:44,159 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 3.1.5 (Final)
+2021-03-24 12:54:48,313 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 85) ISPN000128: Infinispan version: Infinispan 'Corona Extra' 11.0.4.Final
+2021-03-24 12:54:49,275 INFO  [org.infinispan.CONFIG] (MSC service thread 1-1) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-03-24 12:54:49,282 INFO  [org.infinispan.CONFIG] (MSC service thread 1-1) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2021-03-24 12:54:50,528 INFO  [io.smallrye.metrics] (MSC service thread 1-6) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
+2021-03-24 12:54:51,132 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
+2021-03-24 12:54:51,793 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 85) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
+2021-03-24 12:54:58,140 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 85) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
+2021-03-24 12:55:01,776 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 85) Inicializando Mojarra 2.3.14.SP01 para o contexto '/maratonajsf'
+2021-03-24 12:55:16,885 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 85) Running on PrimeFaces 10.0.0
+2021-03-24 12:55:17,319 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 85) WFLYUT0021: Registered web context: '/maratonajsf' for server 'default-server'
+2021-03-24 12:55:18,532 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 50) WFLYSRV0010: Deployed "maratonajsf.war" (runtime-name : "maratonajsf.war")
+2021-03-24 12:55:18,742 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2021-03-24 12:55:18,746 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 21.0.2.Final (WildFly Core 13.0.3.Final) started in 122527ms - Started 481 of 704 services (375 services are lazy, passive or on-demand)
+2021-03-24 12:55:18,825 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2021-03-24 12:55:18,826 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2021-03-24 12:55:53,356 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
+2021-03-24 12:55:53,357 INFO  [stdout] (default task-4) Processando os dados
+2021-03-24 12:55:53,357 INFO  [stdout] (default task-4) Exibindo os dados
+2021-03-24 12:57:08,800 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
+2021-03-24 12:57:08,800 INFO  [stdout] (default task-4) Processando os dados
+2021-03-24 12:57:08,800 INFO  [stdout] (default task-4) Exibindo os dados
+2021-03-24 14:55:40,928 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
+2021-03-24 14:55:40,929 INFO  [stdout] (default task-4) Processando os dados
+2021-03-24 14:55:40,929 INFO  [stdout] (default task-4) Exibindo os dados
+2021-03-24 14:55:49,206 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
+2021-03-24 14:55:49,206 INFO  [stdout] (default task-4) Processando os dados
+2021-03-24 14:55:49,207 INFO  [stdout] (default task-4) Exibindo os dados
+2021-03-24 14:58:58,084 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
+2021-03-24 14:58:58,084 INFO  [stdout] (default task-4) Processando os dados
+2021-03-24 14:58:58,084 INFO  [stdout] (default task-4) Exibindo os dados
+2021-03-24 16:06:28,582 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
+2021-03-24 16:06:28,589 INFO  [stdout] (default task-4) Processando os dados
+2021-03-24 16:06:28,590 INFO  [stdout] (default task-4) Exibindo os dados
+2021-03-24 16:06:45,451 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
+2021-03-24 16:06:45,451 INFO  [stdout] (default task-4) Processando os dados
+2021-03-24 16:06:45,452 INFO  [stdout] (default task-4) Exibindo os dados
+2021-03-24 16:11:37,271 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
+2021-03-24 16:11:37,272 INFO  [stdout] (default task-4) Processando os dados
+2021-03-24 16:11:37,272 INFO  [stdout] (default task-4) Exibindo os dados
+2021-03-24 16:11:42,360 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
+2021-03-24 16:11:42,360 INFO  [stdout] (default task-4) Processando os dados
+2021-03-24 16:11:42,360 INFO  [stdout] (default task-4) Exibindo os dados
+2021-03-24 16:15:57,789 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
+2021-03-24 16:15:57,790 INFO  [stdout] (default task-4) Processando os dados
+2021-03-24 16:15:57,790 INFO  [stdout] (default task-4) Exibindo os dados
+2021-03-24 16:15:57,802 SEVERE [javax.enterprise.resource.webcontainer.jsf.application] (default task-4) Error Rendering View[/pages/home/homePage.xhtml]: javax.faces.FacesException: javax.el.PropertyNotFoundException: /pages/home/homePage.xhtml @110,64 onclick="capturaNome(#{estudanteRegistrarBean.nome})": The class 'br.com.altsystem.beanestudante.EstudanteRegistrarBean' does not have the property 'nome'.
+	at javax.faces.component.UIComponentBase$AttributesMap.get(UIComponentBase.java:2007)
+	at com.sun.faces.renderkit.RenderKitUtils.renderOnclick(RenderKitUtils.java:473)
+	at com.sun.faces.renderkit.html_basic.ButtonRenderer.encodeBegin(ButtonRenderer.java:144)
+	at javax.faces.component.UIComponentBase.encodeBegin(UIComponentBase.java:540)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1644)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:152)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:566)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1647)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1650)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1650)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:468)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:170)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:132)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:132)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:199)
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:708)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:52)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:387)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:841)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1280)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.el.PropertyNotFoundException: /pages/home/homePage.xhtml @110,64 onclick="capturaNome(#{estudanteRegistrarBean.nome})": The class 'br.com.altsystem.beanestudante.EstudanteRegistrarBean' does not have the property 'nome'.
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:75)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:170)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:157)
+	at javax.faces.component.html.HtmlCommandButton.getOnclick(HtmlCommandButton.java:303)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.faces.component.UIComponentBase$AttributesMap.get(UIComponentBase.java:2000)
+	... 67 more
+Caused by: javax.el.PropertyNotFoundException: The class 'br.com.altsystem.beanestudante.EstudanteRegistrarBean' does not have the property 'nome'.
+	at javax.el.BeanELResolver.getBeanProperty(BeanELResolver.java:473)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:174)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:156)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:184)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:114)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:177)
+	at com.sun.el.parser.AstDeferredExpression.getValue(AstDeferredExpression.java:39)
+	at com.sun.el.parser.AstCompositeExpression.getValue(AstCompositeExpression.java:44)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:183)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:73)
+	... 75 more
+
+2021-03-24 16:15:57,892 ERROR [io.undertow.request] (default task-4) UT005023: Exception handling request to /maratonajsf/pages/home/homePage.faces: javax.servlet.ServletException: /pages/home/homePage.xhtml @110,64 onclick="capturaNome(#{estudanteRegistrarBean.nome})": The class 'br.com.altsystem.beanestudante.EstudanteRegistrarBean' does not have the property 'nome'.
 	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:725)
 	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
 	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
@@ -200,32 +325,50 @@
 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
 	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1280)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: javax.faces.view.facelets.FaceletException: Error Parsing /pages/home/homePage.xhtml: Error Traced[line: 73] The end-tag for element type "h:outputText" must end with a '>' delimiter.
-	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:445)
-	at com.sun.faces.facelets.compiler.SAXCompiler.doMetadataCompile(SAXCompiler.java:428)
-	at com.sun.faces.facelets.compiler.Compiler.metadataCompile(Compiler.java:88)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.createMetadataFacelet(DefaultFaceletFactory.java:465)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.access$200(DefaultFaceletFactory.java:67)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory$2.newInstance(DefaultFaceletFactory.java:176)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory$2.newInstance(DefaultFaceletFactory.java:173)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache$2.newInstance(DefaultFaceletCache.java:76)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache$2.newInstance(DefaultFaceletCache.java:69)
-	at com.sun.faces.util.ExpiringConcurrentCache$1.call(ExpiringConcurrentCache.java:76)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at com.sun.faces.util.ExpiringConcurrentCache.get(ExpiringConcurrentCache.java:91)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache.getViewMetadataFacelet(DefaultFaceletCache.java:124)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache.getViewMetadataFacelet(DefaultFaceletCache.java:39)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getMetadataFacelet(DefaultFaceletFactory.java:278)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getMetadataFacelet(DefaultFaceletFactory.java:208)
-	at com.sun.faces.application.view.ViewMetadataImpl.createMetadataView(ViewMetadataImpl.java:122)
-	at com.sun.faces.lifecycle.RestoreViewPhase.execute(RestoreViewPhase.java:224)
+Caused by: javax.el.PropertyNotFoundException: /pages/home/homePage.xhtml @110,64 onclick="capturaNome(#{estudanteRegistrarBean.nome})": The class 'br.com.altsystem.beanestudante.EstudanteRegistrarBean' does not have the property 'nome'.
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:75)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:170)
+	at javax.faces.component.ComponentStateHelper.eval(ComponentStateHelper.java:157)
+	at javax.faces.component.html.HtmlCommandButton.getOnclick(HtmlCommandButton.java:303)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at javax.faces.component.UIComponentBase$AttributesMap.get(UIComponentBase.java:2000)
+	at com.sun.faces.renderkit.RenderKitUtils.renderOnclick(RenderKitUtils.java:473)
+	at com.sun.faces.renderkit.html_basic.ButtonRenderer.encodeBegin(ButtonRenderer.java:144)
+	at javax.faces.component.UIComponentBase.encodeBegin(UIComponentBase.java:540)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1644)
+	at javax.faces.render.Renderer.encodeChildren(Renderer.java:152)
+	at javax.faces.component.UIComponentBase.encodeChildren(UIComponentBase.java:566)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1647)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1650)
+	at javax.faces.component.UIComponent.encodeAll(UIComponent.java:1650)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.renderView(FaceletViewHandlingStrategy.java:468)
+	at com.sun.faces.application.view.MultiViewHandler.renderView(MultiViewHandler.java:170)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:132)
+	at javax.faces.application.ViewHandlerWrapper.renderView(ViewHandlerWrapper.java:132)
+	at com.sun.faces.lifecycle.RenderResponsePhase.execute(RenderResponsePhase.java:102)
 	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
-	at com.sun.faces.lifecycle.RestoreViewPhase.doPhase(RestoreViewPhase.java:110)
-	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:177)
-	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:707)
+	at com.sun.faces.lifecycle.LifecycleImpl.render(LifecycleImpl.java:199)
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:708)
 	... 50 more
+Caused by: javax.el.PropertyNotFoundException: The class 'br.com.altsystem.beanestudante.EstudanteRegistrarBean' does not have the property 'nome'.
+	at javax.el.BeanELResolver.getBeanProperty(BeanELResolver.java:473)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:174)
+	at com.sun.faces.el.DemuxCompositeELResolver._getValue(DemuxCompositeELResolver.java:156)
+	at com.sun.faces.el.DemuxCompositeELResolver.getValue(DemuxCompositeELResolver.java:184)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:114)
+	at com.sun.el.parser.AstValue.getValue(AstValue.java:177)
+	at com.sun.el.parser.AstDeferredExpression.getValue(AstDeferredExpression.java:39)
+	at com.sun.el.parser.AstCompositeExpression.getValue(AstCompositeExpression.java:44)
+	at com.sun.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:183)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+	at org.jboss.weld.module.web.el.WeldValueExpression.getValue(WeldValueExpression.java:50)
+	at com.sun.faces.facelets.el.TagValueExpression.getValue(TagValueExpression.java:73)
+	... 75 more
 
-2021-03-23 14:55:35,957 ERROR [io.undertow.request] (default task-2) UT005023: Exception handling request to /maratonajsf/pages/home/homePage.faces: javax.servlet.ServletException: Error Parsing /pages/home/homePage.xhtml: Error Traced[line: 73] The end-tag for element type "h:outputText" must end with a '>' delimiter.
+2021-03-24 16:16:41,988 ERROR [io.undertow.request] (default task-4) UT005023: Exception handling request to /maratonajsf/pages/home/homePage.faces: javax.servlet.ServletException: /pages/home/homePage.xhtml @110,66 onclick="capturaNome('#{estudanteRegistrarBean.nome'})" EL Expression Unbalanced: ... #{estudanteRegistrarBean.nome'})
 	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:725)
 	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
 	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
@@ -277,32 +420,59 @@ Caused by: javax.faces.view.facelets.FaceletException: Error Parsing /pages/home
 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
 	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1280)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: javax.faces.view.facelets.FaceletException: Error Parsing /pages/home/homePage.xhtml: Error Traced[line: 73] The end-tag for element type "h:outputText" must end with a '>' delimiter.
-	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:445)
-	at com.sun.faces.facelets.compiler.SAXCompiler.doMetadataCompile(SAXCompiler.java:428)
-	at com.sun.faces.facelets.compiler.Compiler.metadataCompile(Compiler.java:88)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.createMetadataFacelet(DefaultFaceletFactory.java:465)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.access$200(DefaultFaceletFactory.java:67)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory$2.newInstance(DefaultFaceletFactory.java:176)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory$2.newInstance(DefaultFaceletFactory.java:173)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache$2.newInstance(DefaultFaceletCache.java:76)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache$2.newInstance(DefaultFaceletCache.java:69)
+Caused by: javax.faces.view.facelets.TagAttributeException: /pages/home/homePage.xhtml @110,66 onclick="capturaNome('#{estudanteRegistrarBean.nome'})" EL Expression Unbalanced: ... #{estudanteRegistrarBean.nome'})
+	at com.sun.faces.facelets.tag.TagAttributeImpl.<init>(TagAttributeImpl.java:87)
+	at com.sun.faces.facelets.compiler.SAXCompiler$CompilationHandler.createAttributes(SAXCompiler.java:97)
+	at com.sun.faces.facelets.compiler.SAXCompiler$CompilationHandler.startElement(SAXCompiler.java:239)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:498)
+	at org.apache.xerces.impl.dtd.XMLDTDValidator.startElement(XMLDTDValidator.java:792)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:283)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(XMLDocumentFragmentScannerImpl.java:1653)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:324)
+	at org.apache.xerces.parsers.XML11Configuration.parse(XML11Configuration.java:875)
+	at org.apache.xerces.parsers.XML11Configuration.parse(XML11Configuration.java:798)
+	at org.apache.xerces.parsers.XMLParser.parse(XMLParser.java:108)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1198)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:564)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(SAXParserImpl.java:298)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:195)
+	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:442)
+	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:418)
+	at com.sun.faces.facelets.compiler.Compiler.compile(Compiler.java:82)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.createFacelet(DefaultFaceletFactory.java:443)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.access$100(DefaultFaceletFactory.java:67)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory$1.newInstance(DefaultFaceletFactory.java:169)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory$1.newInstance(DefaultFaceletFactory.java:166)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache$1.newInstance(DefaultFaceletCache.java:64)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache$1.newInstance(DefaultFaceletCache.java:57)
 	at com.sun.faces.util.ExpiringConcurrentCache$1.call(ExpiringConcurrentCache.java:76)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at com.sun.faces.util.ExpiringConcurrentCache.get(ExpiringConcurrentCache.java:91)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache.getViewMetadataFacelet(DefaultFaceletCache.java:124)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache.getViewMetadataFacelet(DefaultFaceletCache.java:39)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getMetadataFacelet(DefaultFaceletFactory.java:278)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getMetadataFacelet(DefaultFaceletFactory.java:208)
-	at com.sun.faces.application.view.ViewMetadataImpl.createMetadataView(ViewMetadataImpl.java:122)
-	at com.sun.faces.lifecycle.RestoreViewPhase.execute(RestoreViewPhase.java:224)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache.getFacelet(DefaultFaceletCache.java:102)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache.getFacelet(DefaultFaceletCache.java:39)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getFacelet(DefaultFaceletFactory.java:257)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getFacelet(DefaultFaceletFactory.java:201)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:352)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.restoreView(FaceletViewHandlingStrategy.java:266)
+	at com.sun.faces.application.view.MultiViewHandler.restoreView(MultiViewHandler.java:133)
+	at javax.faces.application.ViewHandlerWrapper.restoreView(ViewHandlerWrapper.java:101)
+	at javax.faces.application.ViewHandlerWrapper.restoreView(ViewHandlerWrapper.java:101)
+	at com.sun.faces.lifecycle.RestoreViewPhase.execute(RestoreViewPhase.java:181)
 	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
 	at com.sun.faces.lifecycle.RestoreViewPhase.doPhase(RestoreViewPhase.java:110)
 	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:177)
 	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:707)
 	... 50 more
+Caused by: javax.el.ELException: EL Expression Unbalanced: ... #{estudanteRegistrarBean.nome'})
+	at com.sun.faces.facelets.el.ELText.findVarLength(ELText.java:460)
+	at com.sun.faces.facelets.el.ELText.parse(ELText.java:375)
+	at com.sun.faces.facelets.el.ELText.parse(ELText.java:326)
+	at com.sun.faces.facelets.el.ELText.parse(ELText.java:317)
+	at com.sun.faces.facelets.el.ELText.isLiteral(ELText.java:300)
+	at com.sun.faces.facelets.tag.TagAttributeImpl.<init>(TagAttributeImpl.java:85)
+	... 90 more
 
-2021-03-23 14:55:54,082 ERROR [io.undertow.request] (default task-2) UT005023: Exception handling request to /maratonajsf/pages/home/homePage.faces: javax.servlet.ServletException: Error Parsing /pages/home/homePage.xhtml: Error Traced[line: 73] The end-tag for element type "h:outputText" must end with a '>' delimiter.
+2021-03-24 16:16:46,937 ERROR [io.undertow.request] (default task-4) UT005023: Exception handling request to /maratonajsf/pages/home/homePage.faces: javax.servlet.ServletException: /pages/home/homePage.xhtml @110,66 onclick="capturaNome('#{estudanteRegistrarBean.nome'})" EL Expression Unbalanced: ... #{estudanteRegistrarBean.nome'})
 	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:725)
 	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
 	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
@@ -354,362 +524,183 @@ Caused by: javax.faces.view.facelets.FaceletException: Error Parsing /pages/home
 	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
 	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1280)
 	at java.lang.Thread.run(Thread.java:748)
-Caused by: javax.faces.view.facelets.FaceletException: Error Parsing /pages/home/homePage.xhtml: Error Traced[line: 73] The end-tag for element type "h:outputText" must end with a '>' delimiter.
-	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:445)
-	at com.sun.faces.facelets.compiler.SAXCompiler.doMetadataCompile(SAXCompiler.java:428)
-	at com.sun.faces.facelets.compiler.Compiler.metadataCompile(Compiler.java:88)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.createMetadataFacelet(DefaultFaceletFactory.java:465)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.access$200(DefaultFaceletFactory.java:67)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory$2.newInstance(DefaultFaceletFactory.java:176)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory$2.newInstance(DefaultFaceletFactory.java:173)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache$2.newInstance(DefaultFaceletCache.java:76)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache$2.newInstance(DefaultFaceletCache.java:69)
+Caused by: javax.faces.view.facelets.TagAttributeException: /pages/home/homePage.xhtml @110,66 onclick="capturaNome('#{estudanteRegistrarBean.nome'})" EL Expression Unbalanced: ... #{estudanteRegistrarBean.nome'})
+	at com.sun.faces.facelets.tag.TagAttributeImpl.<init>(TagAttributeImpl.java:87)
+	at com.sun.faces.facelets.compiler.SAXCompiler$CompilationHandler.createAttributes(SAXCompiler.java:97)
+	at com.sun.faces.facelets.compiler.SAXCompiler$CompilationHandler.startElement(SAXCompiler.java:239)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:498)
+	at org.apache.xerces.impl.dtd.XMLDTDValidator.startElement(XMLDTDValidator.java:792)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:283)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(XMLDocumentFragmentScannerImpl.java:1653)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:324)
+	at org.apache.xerces.parsers.XML11Configuration.parse(XML11Configuration.java:875)
+	at org.apache.xerces.parsers.XML11Configuration.parse(XML11Configuration.java:798)
+	at org.apache.xerces.parsers.XMLParser.parse(XMLParser.java:108)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1198)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:564)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(SAXParserImpl.java:298)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:195)
+	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:442)
+	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:418)
+	at com.sun.faces.facelets.compiler.Compiler.compile(Compiler.java:82)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.createFacelet(DefaultFaceletFactory.java:443)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.access$100(DefaultFaceletFactory.java:67)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory$1.newInstance(DefaultFaceletFactory.java:169)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory$1.newInstance(DefaultFaceletFactory.java:166)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache$1.newInstance(DefaultFaceletCache.java:64)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache$1.newInstance(DefaultFaceletCache.java:57)
 	at com.sun.faces.util.ExpiringConcurrentCache$1.call(ExpiringConcurrentCache.java:76)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at com.sun.faces.util.ExpiringConcurrentCache.get(ExpiringConcurrentCache.java:91)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache.getViewMetadataFacelet(DefaultFaceletCache.java:124)
-	at com.sun.faces.facelets.impl.DefaultFaceletCache.getViewMetadataFacelet(DefaultFaceletCache.java:39)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getMetadataFacelet(DefaultFaceletFactory.java:278)
-	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getMetadataFacelet(DefaultFaceletFactory.java:208)
-	at com.sun.faces.application.view.ViewMetadataImpl.createMetadataView(ViewMetadataImpl.java:122)
-	at com.sun.faces.lifecycle.RestoreViewPhase.execute(RestoreViewPhase.java:224)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache.getFacelet(DefaultFaceletCache.java:102)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache.getFacelet(DefaultFaceletCache.java:39)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getFacelet(DefaultFaceletFactory.java:257)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getFacelet(DefaultFaceletFactory.java:201)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:352)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.restoreView(FaceletViewHandlingStrategy.java:266)
+	at com.sun.faces.application.view.MultiViewHandler.restoreView(MultiViewHandler.java:133)
+	at javax.faces.application.ViewHandlerWrapper.restoreView(ViewHandlerWrapper.java:101)
+	at javax.faces.application.ViewHandlerWrapper.restoreView(ViewHandlerWrapper.java:101)
+	at com.sun.faces.lifecycle.RestoreViewPhase.execute(RestoreViewPhase.java:181)
 	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
 	at com.sun.faces.lifecycle.RestoreViewPhase.doPhase(RestoreViewPhase.java:110)
 	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:177)
 	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:707)
 	... 50 more
+Caused by: javax.el.ELException: EL Expression Unbalanced: ... #{estudanteRegistrarBean.nome'})
+	at com.sun.faces.facelets.el.ELText.findVarLength(ELText.java:460)
+	at com.sun.faces.facelets.el.ELText.parse(ELText.java:375)
+	at com.sun.faces.facelets.el.ELText.parse(ELText.java:326)
+	at com.sun.faces.facelets.el.ELText.parse(ELText.java:317)
+	at com.sun.faces.facelets.el.ELText.isLiteral(ELText.java:300)
+	at com.sun.faces.facelets.tag.TagAttributeImpl.<init>(TagAttributeImpl.java:85)
+	... 90 more
 
-2021-03-23 14:59:12,126 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0272: Suspending server
-2021-03-23 14:59:12,131 INFO  [org.jboss.as.ejb3] (management-handler-thread - 1) WFLYEJB0493: EJB subsystem suspension complete
-2021-03-23 14:59:12,149 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
-2021-03-23 14:59:12,427 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
-2021-03-23 14:59:12,455 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0022: Unregistered web context: '/maratonajsf' from server 'default-server'
-2021-03-23 14:59:12,552 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0019: Host default-host stopping
-2021-03-23 14:59:12,570 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 103) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
-2021-03-23 14:59:12,582 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 103) Stopping cache manager null on null
-2021-03-23 14:59:12,613 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
-2021-03-23 14:59:12,620 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
-2021-03-23 14:59:12,743 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTPS listener https suspending
-2021-03-23 14:59:12,743 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTP listener default suspending
-2021-03-23 14:59:12,745 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
-2021-03-23 14:59:12,747 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
-2021-03-23 14:59:12,751 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 2.2.2.Final stopping
-2021-03-23 14:59:12,873 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment maratonajsf.war (runtime-name: maratonajsf.war) in 677ms
-2021-03-23 14:59:12,883 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Full 21.0.2.Final (WildFly Core 13.0.3.Final) stopped in 721ms
-2021-03-23 14:59:48,284 INFO  [org.jboss.modules] (main) JBoss Modules version 1.10.2.Final
-2021-03-23 14:59:52,966 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
-2021-03-23 14:59:53,066 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
-2021-03-23 14:59:53,965 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 21.0.2.Final (WildFly Core 13.0.3.Final) starting
-2021-03-23 14:59:53,980 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
-	awt.toolkit = sun.awt.windows.WToolkit
-	file.encoding = UTF-8
-	file.encoding.pkg = sun.io
-	file.separator = \
-	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
-	java.awt.headless = true
-	java.awt.printerjob = sun.awt.windows.WPrinterJob
-	java.class.path = C:\projetoMaratonajsf\wildfly-21.0.2.Final\jboss-modules.jar
-	java.class.version = 52.0
-	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed
-	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
-	java.home = C:\Program Files\Java\jdk1.8.0_211\jre
-	java.io.tmpdir = C:\Users\altca\AppData\Local\Temp\
-	java.library.path = C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_211\jre\bin;native;C:/Program Files/Java/jdk-11.0.2/bin/server;C:/Program Files/Java/jdk-11.0.2/bin;C:\app\altca\product\18.0.0\dbhomeXE\bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\SQL Anywhere 16\bin64;C:\Program Files\SQL Anywhere 16\bin32;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Desenv\sdk\jdk8\bin;C:\Desenv\util\apache-maven-3.5.3\bin;C:\Desenv\util\git\bin;C:\Desenv\util\git\cmd;;C:\Users\altca\OneDrive\Desktop;;.
-	java.net.preferIPv4Stack = true
-	java.runtime.name = Java(TM) SE Runtime Environment
-	java.runtime.version = 1.8.0_211-b12
-	java.specification.name = Java Platform API Specification
-	java.specification.vendor = Oracle Corporation
-	java.specification.version = 1.8
-	java.util.logging.manager = org.jboss.logmanager.LogManager
-	java.vendor = Oracle Corporation
-	java.vendor.url = http://java.oracle.com/
-	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
-	java.version = 1.8.0_211
-	java.vm.info = mixed mode
-	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
-	java.vm.specification.name = Java Virtual Machine Specification
-	java.vm.specification.vendor = Oracle Corporation
-	java.vm.specification.version = 1.8
-	java.vm.vendor = Oracle Corporation
-	java.vm.version = 25.211-b12
-	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
-	jboss.bind.address = localhost
-	jboss.bind.address.management = localhost
-	jboss.home.dir = C:\projetoMaratonajsf\wildfly-21.0.2.Final
-	jboss.host.name = desktop-nvvdfsa
-	jboss.modules.dir = C:\projetoMaratonajsf\wildfly-21.0.2.Final\modules
-	jboss.modules.system.pkgs = org.jboss.byteman
-	jboss.node.name = desktop-nvvdfsa
-	jboss.qualified.host.name = desktop-nvvdfsa
-	jboss.server.base.dir = C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone
-	jboss.server.config.dir = C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\configuration
-	jboss.server.data.dir = C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\data
-	jboss.server.deploy.dir = C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\data\content
-	jboss.server.log.dir = C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\log
-	jboss.server.name = desktop-nvvdfsa
-	jboss.server.persist.config = true
-	jboss.server.temp.dir = C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\tmp
-	line.separator = 
+2021-03-24 16:17:27,838 ERROR [io.undertow.request] (default task-4) UT005023: Exception handling request to /maratonajsf/pages/home/homePage.faces: javax.servlet.ServletException: /pages/home/homePage.xhtml @110,76 onclick="capturaNome('#{estudanteRegistrarBean.estudante.nome'})" EL Expression Unbalanced: ... #{estudanteRegistrarBean.estudante.nome'})
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:725)
+	at javax.faces.webapp.FacesServlet.service(FacesServlet.java:451)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:52)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.RedirectDirHandler.handleRequest(RedirectDirHandler.java:68)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.servlet.handlers.SendErrorPageHandler.handleRequest(SendErrorPageHandler.java:52)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:269)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:133)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:130)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1530)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:249)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:78)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:99)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:387)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:841)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1377)
+	at org.xnio.XnioWorker$WorkerThreadFactory$1$1.run(XnioWorker.java:1280)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.faces.view.facelets.TagAttributeException: /pages/home/homePage.xhtml @110,76 onclick="capturaNome('#{estudanteRegistrarBean.estudante.nome'})" EL Expression Unbalanced: ... #{estudanteRegistrarBean.estudante.nome'})
+	at com.sun.faces.facelets.tag.TagAttributeImpl.<init>(TagAttributeImpl.java:87)
+	at com.sun.faces.facelets.compiler.SAXCompiler$CompilationHandler.createAttributes(SAXCompiler.java:97)
+	at com.sun.faces.facelets.compiler.SAXCompiler$CompilationHandler.startElement(SAXCompiler.java:239)
+	at org.apache.xerces.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:498)
+	at org.apache.xerces.impl.dtd.XMLDTDValidator.startElement(XMLDTDValidator.java:792)
+	at org.apache.xerces.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:283)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl$FragmentContentDispatcher.dispatch(XMLDocumentFragmentScannerImpl.java:1653)
+	at org.apache.xerces.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:324)
+	at org.apache.xerces.parsers.XML11Configuration.parse(XML11Configuration.java:875)
+	at org.apache.xerces.parsers.XML11Configuration.parse(XML11Configuration.java:798)
+	at org.apache.xerces.parsers.XMLParser.parse(XMLParser.java:108)
+	at org.apache.xerces.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1198)
+	at org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:564)
+	at org.apache.xerces.jaxp.SAXParserImpl.parse(SAXParserImpl.java:298)
+	at javax.xml.parsers.SAXParser.parse(SAXParser.java:195)
+	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:442)
+	at com.sun.faces.facelets.compiler.SAXCompiler.doCompile(SAXCompiler.java:418)
+	at com.sun.faces.facelets.compiler.Compiler.compile(Compiler.java:82)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.createFacelet(DefaultFaceletFactory.java:443)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.access$100(DefaultFaceletFactory.java:67)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory$1.newInstance(DefaultFaceletFactory.java:169)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory$1.newInstance(DefaultFaceletFactory.java:166)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache$1.newInstance(DefaultFaceletCache.java:64)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache$1.newInstance(DefaultFaceletCache.java:57)
+	at com.sun.faces.util.ExpiringConcurrentCache$1.call(ExpiringConcurrentCache.java:76)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at com.sun.faces.util.ExpiringConcurrentCache.get(ExpiringConcurrentCache.java:91)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache.getFacelet(DefaultFaceletCache.java:102)
+	at com.sun.faces.facelets.impl.DefaultFaceletCache.getFacelet(DefaultFaceletCache.java:39)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getFacelet(DefaultFaceletFactory.java:257)
+	at com.sun.faces.facelets.impl.DefaultFaceletFactory.getFacelet(DefaultFaceletFactory.java:201)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.buildView(FaceletViewHandlingStrategy.java:352)
+	at com.sun.faces.application.view.FaceletViewHandlingStrategy.restoreView(FaceletViewHandlingStrategy.java:266)
+	at com.sun.faces.application.view.MultiViewHandler.restoreView(MultiViewHandler.java:133)
+	at javax.faces.application.ViewHandlerWrapper.restoreView(ViewHandlerWrapper.java:101)
+	at javax.faces.application.ViewHandlerWrapper.restoreView(ViewHandlerWrapper.java:101)
+	at com.sun.faces.lifecycle.RestoreViewPhase.execute(RestoreViewPhase.java:181)
+	at com.sun.faces.lifecycle.Phase.doPhase(Phase.java:76)
+	at com.sun.faces.lifecycle.RestoreViewPhase.doPhase(RestoreViewPhase.java:110)
+	at com.sun.faces.lifecycle.LifecycleImpl.execute(LifecycleImpl.java:177)
+	at javax.faces.webapp.FacesServlet.executeLifecyle(FacesServlet.java:707)
+	... 50 more
+Caused by: javax.el.ELException: EL Expression Unbalanced: ... #{estudanteRegistrarBean.estudante.nome'})
+	at com.sun.faces.facelets.el.ELText.findVarLength(ELText.java:460)
+	at com.sun.faces.facelets.el.ELText.parse(ELText.java:375)
+	at com.sun.faces.facelets.el.ELText.parse(ELText.java:326)
+	at com.sun.faces.facelets.el.ELText.parse(ELText.java:317)
+	at com.sun.faces.facelets.el.ELText.isLiteral(ELText.java:300)
+	at com.sun.faces.facelets.tag.TagAttributeImpl.<init>(TagAttributeImpl.java:85)
+	... 90 more
 
-	logging.configuration = file:C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\configuration\logging.properties
-	module.path = C:\projetoMaratonajsf\wildfly-21.0.2.Final\modules
-	org.jboss.boot.log.file = C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\log\boot.log
-	org.jboss.logmanager.nocolor = true
-	org.jboss.resolver.warning = true
-	os.arch = amd64
-	os.name = Windows 10
-	os.version = 10.0
-	path.separator = ;
-	program.name = JBossTools: WildFly 21
-	sun.arch.data.model = 64
-	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes
-	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_211\jre\bin
-	sun.cpu.endian = little
-	sun.cpu.isalist = amd64
-	sun.desktop = windows
-	sun.io.unicode.encoding = UnicodeLittle
-	sun.java.command = org.jboss.modules.Main -mp C:\projetoMaratonajsf\wildfly-21.0.2.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone
-	sun.java.launcher = SUN_STANDARD
-	sun.jnu.encoding = Cp1252
-	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
-	sun.os.patch.level = 
-	sun.rmi.dgc.client.gcInterval = 3600000
-	sun.rmi.dgc.server.gcInterval = 3600000
-	user.country = BR
-	user.dir = C:\projetoMaratonajsf\wildfly-21.0.2.Final\bin
-	user.home = C:\Users\altca
-	user.language = pt
-	user.name = altca
-	user.script = 
-	user.timezone = America/Sao_Paulo
-	user.variant = 
-2021-03-23 14:59:54,001 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:2133 -Dprogram.name=JBossTools: WildFly 21 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\projetoMaratonajsf\wildfly-21.0.2.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
-2021-03-23 14:59:59,906 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.13.1.Final
-2021-03-23 15:00:05,217 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
-2021-03-23 15:00:05,811 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 6) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
-2021-03-23 15:00:06,901 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found maratonajsf.war in deployment directory. To trigger deployment create a file called maratonajsf.war.dodeploy
-2021-03-23 15:00:08,321 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
-2021-03-23 15:00:09,008 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.8.2.Final
-2021-03-23 15:00:09,155 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.8.2.Final
-2021-03-23 15:00:10,678 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) WFLYCLINF0001: Activating Infinispan subsystem.
-2021-03-23 15:00:10,729 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 72) WFLYSEC0002: Activating Security Subsystem
-2021-03-23 15:00:10,751 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
-2021-03-23 15:00:10,967 INFO  [org.wildfly.extension.microprofile.jwt.smallrye._private] (ServerService Thread Pool -- 63) WFLYJWT0001: Activating WildFly MicroProfile JWT Subsystem
-2021-03-23 15:00:11,012 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 61) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
-2021-03-23 15:00:11,025 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 65) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
-2021-03-23 15:00:11,037 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 62) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
-2021-03-23 15:00:11,071 INFO  [org.jboss.as.security] (MSC service thread 1-5) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00006
-2021-03-23 15:00:11,082 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
-2021-03-23 15:00:11,078 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
-2021-03-23 15:00:11,088 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 59) WFLYJSF0007: Activated the following JSF Implementations: [main]
-2021-03-23 15:00:11,098 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 66) WFLYNAM0001: Activating Naming Subsystem
-2021-03-23 15:00:11,319 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 54) WFLYRS0016: RESTEasy version 3.13.2.Final
-2021-03-23 15:00:11,359 INFO  [org.jboss.as.connector] (MSC service thread 1-2) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.23.Final)
-2021-03-23 15:00:12,024 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.2.2.Final starting
-2021-03-23 15:00:12,083 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
-2021-03-23 15:00:12,797 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = h2
-2021-03-23 15:00:13,003 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
-2021-03-23 15:00:13,088 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
-2021-03-23 15:00:14,388 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\projetoMaratonajsf\wildfly-21.0.2.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
-2021-03-23 15:00:19,367 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 53) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
-2021-03-23 15:00:19,407 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
-2021-03-23 15:00:19,408 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
-2021-03-23 15:00:21,483 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
-2021-03-23 15:00:21,504 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
-2021-03-23 15:00:21,562 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
-2021-03-23 15:00:21,763 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-5) WFLYDM0111: Keystore C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
-2021-03-23 15:00:21,845 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-3) WFLYDS0013: Started FileSystemDeploymentService for directory C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\deployments
-2021-03-23 15:00:21,899 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "maratonajsf.war" (runtime-name: "maratonajsf.war")
-2021-03-23 15:00:22,132 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.19.Final
-2021-03-23 15:00:22,170 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
-2021-03-23 15:00:22,816 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0493: EJB subsystem suspension complete
-2021-03-23 15:00:23,150 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
-2021-03-23 15:00:24,074 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
-2021-03-23 15:00:24,216 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.4.2.Final (Apache CXF 3.3.7) 
-2021-03-23 15:00:26,618 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0003: Processing weld deployment maratonajsf.war
-2021-03-23 15:00:27,465 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-5) HV000001: Hibernate Validator 6.0.21.Final
-2021-03-23 15:00:28,389 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-5) No shutdown hook registered: Please call close() manually on application shutdown.
-2021-03-23 15:00:29,199 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 3.1.5 (Final)
-2021-03-23 15:00:30,094 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 79) ISPN000128: Infinispan version: Infinispan 'Corona Extra' 11.0.4.Final
-2021-03-23 15:00:30,549 INFO  [org.infinispan.CONFIG] (MSC service thread 1-3) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2021-03-23 15:00:30,580 INFO  [org.infinispan.CONFIG] (MSC service thread 1-3) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2021-03-23 15:00:31,424 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 79) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
-2021-03-23 15:00:32,824 INFO  [io.smallrye.metrics] (MSC service thread 1-6) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
-2021-03-23 15:00:33,049 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 79) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
-2021-03-23 15:00:33,237 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
-2021-03-23 15:00:38,721 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 79) Inicializando Mojarra 2.3.14.SP01 para o contexto '/maratonajsf'
-2021-03-23 15:00:49,801 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 79) Running on PrimeFaces 10.0.0
-2021-03-23 15:00:49,862 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 79) WFLYUT0021: Registered web context: '/maratonajsf' for server 'default-server'
-2021-03-23 15:00:50,077 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 45) WFLYSRV0010: Deployed "maratonajsf.war" (runtime-name : "maratonajsf.war")
-2021-03-23 15:00:50,216 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
-2021-03-23 15:00:50,220 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 21.0.2.Final (WildFly Core 13.0.3.Final) started in 67881ms - Started 481 of 704 services (375 services are lazy, passive or on-demand)
-2021-03-23 15:00:50,233 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
-2021-03-23 15:00:50,233 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
-2021-03-23 15:14:08,291 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0272: Suspending server
-2021-03-23 15:14:08,305 INFO  [org.jboss.as.ejb3] (management-handler-thread - 3) WFLYEJB0493: EJB subsystem suspension complete
-2021-03-23 15:14:08,495 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
-2021-03-23 15:14:09,091 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
-2021-03-23 15:14:09,186 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 85) WFLYUT0022: Unregistered web context: '/maratonajsf' from server 'default-server'
-2021-03-23 15:14:10,205 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0019: Host default-host stopping
-2021-03-23 15:14:10,591 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 93) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
-2021-03-23 15:14:10,654 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
-2021-03-23 15:14:10,636 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 93) Stopping cache manager null on null
-2021-03-23 15:14:10,853 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = h2
-2021-03-23 15:14:11,767 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
-2021-03-23 15:14:11,772 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
-2021-03-23 15:14:11,782 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTP listener default suspending
-2021-03-23 15:14:11,783 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
-2021-03-23 15:14:11,790 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 2.2.2.Final stopping
-2021-03-23 15:14:12,933 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment maratonajsf.war (runtime-name: maratonajsf.war) in 4066ms
-2021-03-23 15:14:12,968 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Full 21.0.2.Final (WildFly Core 13.0.3.Final) stopped in 4349ms
-2021-03-23 15:21:05,213 INFO  [org.jboss.modules] (main) JBoss Modules version 1.10.2.Final
-2021-03-23 15:21:25,785 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.12.Final
-2021-03-23 15:21:25,894 INFO  [org.jboss.threads] (main) JBoss Threads version 2.4.0.Final
-2021-03-23 15:21:29,163 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: WildFly Full 21.0.2.Final (WildFly Core 13.0.3.Final) starting
-2021-03-23 15:21:29,181 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
-	awt.toolkit = sun.awt.windows.WToolkit
-	file.encoding = UTF-8
-	file.encoding.pkg = sun.io
-	file.separator = \
-	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
-	java.awt.headless = true
-	java.awt.printerjob = sun.awt.windows.WPrinterJob
-	java.class.path = C:\projetoMaratonajsf\wildfly-21.0.2.Final\jboss-modules.jar
-	java.class.version = 52.0
-	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_211\jre\lib\endorsed
-	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_211\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
-	java.home = C:\Program Files\Java\jdk1.8.0_211\jre
-	java.io.tmpdir = C:\Users\altca\AppData\Local\Temp\
-	java.library.path = C:\Program Files\Java\jdk1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_211\jre\bin;native;C:/Program Files/Java/jdk-11.0.2/bin/server;C:/Program Files/Java/jdk-11.0.2/bin;C:\app\altca\product\18.0.0\dbhomeXE\bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\SQL Anywhere 16\bin64;C:\Program Files\SQL Anywhere 16\bin32;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Desenv\sdk\jdk8\bin;C:\Desenv\util\apache-maven-3.5.3\bin;C:\Desenv\util\git\bin;C:\Desenv\util\git\cmd;;C:\Users\altca\OneDrive\Desktop;;.
-	java.net.preferIPv4Stack = true
-	java.runtime.name = Java(TM) SE Runtime Environment
-	java.runtime.version = 1.8.0_211-b12
-	java.specification.name = Java Platform API Specification
-	java.specification.vendor = Oracle Corporation
-	java.specification.version = 1.8
-	java.util.logging.manager = org.jboss.logmanager.LogManager
-	java.vendor = Oracle Corporation
-	java.vendor.url = http://java.oracle.com/
-	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
-	java.version = 1.8.0_211
-	java.vm.info = mixed mode
-	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
-	java.vm.specification.name = Java Virtual Machine Specification
-	java.vm.specification.vendor = Oracle Corporation
-	java.vm.specification.version = 1.8
-	java.vm.vendor = Oracle Corporation
-	java.vm.version = 25.211-b12
-	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
-	jboss.bind.address = localhost
-	jboss.bind.address.management = localhost
-	jboss.home.dir = C:\projetoMaratonajsf\wildfly-21.0.2.Final
-	jboss.host.name = desktop-nvvdfsa
-	jboss.modules.dir = C:\projetoMaratonajsf\wildfly-21.0.2.Final\modules
-	jboss.modules.system.pkgs = org.jboss.byteman
-	jboss.node.name = desktop-nvvdfsa
-	jboss.qualified.host.name = desktop-nvvdfsa
-	jboss.server.base.dir = C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone
-	jboss.server.config.dir = C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\configuration
-	jboss.server.data.dir = C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\data
-	jboss.server.deploy.dir = C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\data\content
-	jboss.server.log.dir = C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\log
-	jboss.server.name = desktop-nvvdfsa
-	jboss.server.persist.config = true
-	jboss.server.temp.dir = C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\tmp
-	line.separator = 
-
-	logging.configuration = file:C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\configuration\logging.properties
-	module.path = C:\projetoMaratonajsf\wildfly-21.0.2.Final\modules
-	org.jboss.boot.log.file = C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\log\boot.log
-	org.jboss.logmanager.nocolor = true
-	org.jboss.resolver.warning = true
-	os.arch = amd64
-	os.name = Windows 10
-	os.version = 10.0
-	path.separator = ;
-	program.name = JBossTools: WildFly 21
-	sun.arch.data.model = 64
-	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_211\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_211\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_211\jre\classes
-	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_211\jre\bin
-	sun.cpu.endian = little
-	sun.cpu.isalist = amd64
-	sun.desktop = windows
-	sun.io.unicode.encoding = UnicodeLittle
-	sun.java.command = org.jboss.modules.Main -mp C:\projetoMaratonajsf\wildfly-21.0.2.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone
-	sun.java.launcher = SUN_STANDARD
-	sun.jnu.encoding = Cp1252
-	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
-	sun.os.patch.level = 
-	sun.rmi.dgc.client.gcInterval = 3600000
-	sun.rmi.dgc.server.gcInterval = 3600000
-	user.country = BR
-	user.dir = C:\projetoMaratonajsf\wildfly-21.0.2.Final\bin
-	user.home = C:\Users\altca
-	user.language = pt
-	user.name = altca
-	user.script = 
-	user.timezone = America/Sao_Paulo
-	user.variant = 
-2021-03-23 15:21:29,324 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:2394 -Dprogram.name=JBossTools: WildFly 21 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\projetoMaratonajsf\wildfly-21.0.2.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
-2021-03-23 15:21:46,556 INFO  [org.wildfly.security] (ServerService Thread Pool -- 27) ELY00001: WildFly Elytron version 1.13.1.Final
-2021-03-23 15:21:51,453 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
-2021-03-23 15:21:51,805 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 8) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
-2021-03-23 15:21:52,618 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found maratonajsf.war in deployment directory. To trigger deployment create a file called maratonajsf.war.dodeploy
-2021-03-23 15:21:53,212 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
-2021-03-23 15:21:53,605 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.8.2.Final
-2021-03-23 15:21:53,877 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.8.2.Final
-2021-03-23 15:21:55,024 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 52) WFLYCLINF0001: Activating Infinispan subsystem.
-2021-03-23 15:21:54,868 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 74) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
-2021-03-23 15:21:55,216 INFO  [org.wildfly.extension.microprofile.jwt.smallrye._private] (ServerService Thread Pool -- 63) WFLYJWT0001: Activating WildFly MicroProfile JWT Subsystem
-2021-03-23 15:21:55,225 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 72) WFLYSEC0002: Activating Security Subsystem
-2021-03-23 15:21:55,526 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 59) WFLYJSF0007: Activated the following JSF Implementations: [main]
-2021-03-23 15:21:55,500 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Current PicketBox version=5.0.3.Final-redhat-00006
-2021-03-23 15:21:55,883 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 65) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
-2021-03-23 15:21:55,440 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 61) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
-2021-03-23 15:21:55,905 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 76) WFLYWS0002: Activating WebServices Extension
-2021-03-23 15:21:55,953 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 66) WFLYNAM0001: Activating Naming Subsystem
-2021-03-23 15:21:55,984 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 62) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
-2021-03-23 15:21:56,017 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 54) WFLYRS0016: RESTEasy version 3.13.2.Final
-2021-03-23 15:21:56,166 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 64) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
-2021-03-23 15:21:56,302 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.23.Final)
-2021-03-23 15:21:56,331 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 44) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
-2021-03-23 15:21:57,312 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
-2021-03-23 15:21:59,037 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0003: Undertow 2.2.2.Final starting
-2021-03-23 15:22:03,765 INFO  [org.jboss.as.naming] (MSC service thread 1-7) WFLYNAM0003: Starting Naming Service
-2021-03-23 15:22:07,617 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
-2021-03-23 15:22:07,629 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0014: Creating file handler for path 'C:\projetoMaratonajsf\wildfly-21.0.2.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
-2021-03-23 15:22:36,321 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 53) WFLYIO001: Worker 'default' has auto-configured to 8 IO threads with 64 max task threads based on your 4 available processors
-2021-03-23 15:22:36,367 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
-2021-03-23 15:22:36,387 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
-2021-03-23 15:22:36,847 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0012: Started server default-server.
-2021-03-23 15:22:36,864 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0018: Host default-host starting
-2021-03-23 15:22:37,138 INFO  [org.jboss.as.patching] (MSC service thread 1-5) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
-2021-03-23 15:22:37,168 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 5.0.19.Final
-2021-03-23 15:22:37,890 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
-2021-03-23 15:22:38,007 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory C:\projetoMaratonajsf\wildfly-21.0.2.Final\standalone\deployments
-2021-03-23 15:22:38,128 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Starting deployment of "maratonajsf.war" (runtime-name: "maratonajsf.war")
-2021-03-23 15:22:38,185 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
-2021-03-23 15:22:38,627 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: EJB subsystem suspension complete
-2021-03-23 15:22:39,198 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
-2021-03-23 15:23:10,566 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
-2021-03-23 15:23:15,618 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBossWS 5.4.2.Final (Apache CXF 3.3.7) 
-2021-03-23 15:23:29,620 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment maratonajsf.war
-2021-03-23 15:23:32,127 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-6) HV000001: Hibernate Validator 6.0.21.Final
-2021-03-23 15:23:37,563 INFO  [io.jaegertracing.internal.JaegerTracer] (MSC service thread 1-6) No shutdown hook registered: Please call close() manually on application shutdown.
-2021-03-23 15:23:38,529 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900: 3.1.5 (Final)
-2021-03-23 15:23:38,699 INFO  [org.infinispan.CONTAINER] (ServerService Thread Pool -- 80) ISPN000128: Infinispan version: Infinispan 'Corona Extra' 11.0.4.Final
-2021-03-23 15:23:38,823 INFO  [org.infinispan.CONFIG] (MSC service thread 1-7) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2021-03-23 15:23:38,826 INFO  [org.infinispan.CONFIG] (MSC service thread 1-7) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
-2021-03-23 15:23:39,039 INFO  [org.infinispan.PERSISTENCE] (ServerService Thread Pool -- 80) ISPN000556: Starting user marshaller 'org.wildfly.clustering.infinispan.spi.marshalling.InfinispanProtoStreamMarshaller'
-2021-03-23 15:23:42,519 INFO  [io.smallrye.metrics] (MSC service thread 1-4) MicroProfile: Metrics activated (SmallRye Metrics version: 2.4.2)
-2021-03-23 15:23:43,085 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 80) WFLYCLINF0002: Started http-remoting-connector cache from ejb container
-2021-03-23 15:23:44,058 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-4) WELD-000146: BeforeBeanDiscovery.addAnnotatedType(AnnotatedType<?>) used for class com.sun.faces.flow.FlowDiscoveryCDIHelper is deprecated from CDI 1.1!
-2021-03-23 15:23:51,855 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 80) Inicializando Mojarra 2.3.14.SP01 para o contexto '/maratonajsf'
-2021-03-23 15:24:06,431 INFO  [org.primefaces.webapp.PostConstructApplicationEventListener] (ServerService Thread Pool -- 80) Running on PrimeFaces 10.0.0
-2021-03-23 15:24:06,700 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 80) WFLYUT0021: Registered web context: '/maratonajsf' for server 'default-server'
-2021-03-23 15:24:07,922 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 45) WFLYSRV0010: Deployed "maratonajsf.war" (runtime-name : "maratonajsf.war")
-2021-03-23 15:24:09,337 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
-2021-03-23 15:24:09,384 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 21.0.2.Final (WildFly Core 13.0.3.Final) started in 188028ms - Started 481 of 704 services (375 services are lazy, passive or on-demand)
-2021-03-23 15:24:09,470 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
-2021-03-23 15:24:09,471 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2021-03-24 16:19:52,509 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
+2021-03-24 16:19:52,510 INFO  [stdout] (default task-4) Processando os dados
+2021-03-24 16:19:52,511 INFO  [stdout] (default task-4) Exibindo os dados
+2021-03-24 16:19:56,322 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
+2021-03-24 16:19:56,323 INFO  [stdout] (default task-4) Processando os dados
+2021-03-24 16:19:56,324 INFO  [stdout] (default task-4) Exibindo os dados
+2021-03-24 16:20:00,388 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
+2021-03-24 16:20:00,388 INFO  [stdout] (default task-4) Processando os dados
+2021-03-24 16:20:00,389 INFO  [stdout] (default task-4) Exibindo os dados
+2021-03-24 16:20:37,379 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
+2021-03-24 16:20:37,380 INFO  [stdout] (default task-4) Processando os dados
+2021-03-24 16:20:37,387 INFO  [stdout] (default task-4) Exibindo os dados
+2021-03-24 16:20:41,097 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
+2021-03-24 16:20:41,107 INFO  [stdout] (default task-4) Processando os dados
+2021-03-24 16:20:41,108 INFO  [stdout] (default task-4) Exibindo os dados
+2021-03-24 16:22:22,611 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
+2021-03-24 16:22:22,612 INFO  [stdout] (default task-4) Processando os dados
+2021-03-24 16:22:22,612 INFO  [stdout] (default task-4) Exibindo os dados
+2021-03-24 16:22:27,477 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
+2021-03-24 16:22:27,482 INFO  [stdout] (default task-4) Processando os dados
+2021-03-24 16:22:27,483 INFO  [stdout] (default task-4) Exibindo os dados
+2021-03-24 16:48:17,081 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
+2021-03-24 16:48:17,082 INFO  [stdout] (default task-4) Processando os dados
+2021-03-24 16:48:17,082 INFO  [stdout] (default task-4) Exibindo os dados
