@@ -704,3 +704,20 @@ Caused by: javax.el.ELException: EL Expression Unbalanced: ... #{estudanteRegist
 2021-03-24 16:48:17,081 INFO  [stdout] (default task-4) Fazendo uma busca no Banco de Dados
 2021-03-24 16:48:17,082 INFO  [stdout] (default task-4) Processando os dados
 2021-03-24 16:48:17,082 INFO  [stdout] (default task-4) Exibindo os dados
+2021-03-24 16:56:42,070 INFO  [org.jboss.as.server] (management-handler-thread - 3) WFLYSRV0272: Suspending server
+2021-03-24 16:56:42,082 INFO  [org.jboss.as.ejb3] (management-handler-thread - 3) WFLYEJB0493: EJB subsystem suspension complete
+2021-03-24 16:56:42,228 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2021-03-24 16:56:42,703 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2021-03-24 16:56:42,808 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 98) WFLYUT0022: Unregistered web context: '/maratonajsf' from server 'default-server'
+2021-03-24 16:56:42,962 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2021-03-24 16:56:43,013 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2021-03-24 16:56:43,012 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 105) WFLYCLINF0003: Stopped http-remoting-connector cache from ejb container
+2021-03-24 16:56:43,028 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2021-03-24 16:56:43,033 INFO  [org.infinispan.manager.DefaultCacheManager] (ServerService Thread Pool -- 105) Stopping cache manager null on null
+2021-03-24 16:56:43,233 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTPS listener https suspending
+2021-03-24 16:56:43,235 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTP listener default suspending
+2021-03-24 16:56:43,236 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2021-03-24 16:56:43,236 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2021-03-24 16:56:43,239 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0004: Undertow 2.2.2.Final stopping
+2021-03-24 16:56:43,382 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment maratonajsf.war (runtime-name: maratonajsf.war) in 1052ms
+2021-03-24 16:56:43,400 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Full 21.0.2.Final (WildFly Core 13.0.3.Final) stopped in 1134ms
